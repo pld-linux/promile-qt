@@ -1,4 +1,4 @@
-Summary:	promile-qt count rate of alcohol in function of time from consumption
+Summary:	promile-qt counts rate of alcohol in function of time from consumption
 Summary(pl.UTF-8):	promile-qt oblicza liczbe promili alkoholu w zależności od czasu po jego spożyciu
 Name:		promile-qt
 Version:	0.4.2
@@ -16,7 +16,7 @@ BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-promile-qt count rate of alcohol in function of time from consumption.
+promile-qt counts rate of alcohol in function of time from consumption.
 
 %description -l pl.UTF-8
 Program oblicza liczbe promili alkoholu w zależności od czasu po jego spożyciu.
