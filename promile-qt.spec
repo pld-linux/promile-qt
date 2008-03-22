@@ -19,7 +19,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 promile-qt counts rate of alcohol in function of time from consumption.
 
 %description -l pl.UTF-8
-Program oblicza liczbe promili alkoholu w zależności od czasu po jego spożyciu.
+Program oblicza liczbę promili alkoholu w zależności od czasu po jego
+spożyciu.
 
 %prep
 %setup -q
