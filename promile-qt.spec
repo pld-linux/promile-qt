@@ -37,7 +37,7 @@ qmake-qt4
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
-install promile-qt $RPM_BUILD_ROOT%{_bindir}/
+install promile-qt $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
