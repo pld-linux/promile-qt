@@ -3,12 +3,12 @@
 Summary:	promile-qt counts rate of alcohol in function of time from consumption
 Summary(pl.UTF-8):	promile-qt oblicza liczbe promili alkoholu w zależności od czasu po jego spożyciu
 Name:		promile-qt
-Version:	0.5.2
+Version:	0.6.0
 Release:	1
 License:	GPL v3
 Group:		X11/Applications
 Source0:	http://piro.wikidot.com/local--files/promile-qt/%{name}-%{version}-src.tar.bz2
-# Source0-md5:	63ffeca9ed0c5e7bf7afe8deb9dccc21
+# Source0-md5:	cd34e47255f3893c06fb0a845e301747
 URL:		http://piro.wikidot.com/promile-qt
 BuildRequires:	QtCore-devel
 BuildRequires:	QtGui-devel
@@ -27,7 +27,7 @@ Program oblicza liczbę promili alkoholu w zależności od czasu po jego
 spożyciu.
 
 %prep
-%setup -q
+%setup -q -n promile-qt
 
 %build
 qmake-qt4 -project
@@ -37,7 +37,7 @@ qmake-qt4
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
-install promile-qt-0 $RPM_BUILD_ROOT%{_bindir}/%{name}
+install promile-qt $RPM_BUILD_ROOT%{_bindir}/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
