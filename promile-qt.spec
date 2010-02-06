@@ -4,7 +4,7 @@ Summary:	promile-qt counts rate of alcohol in function of time from consumption
 Summary(pl.UTF-8):	promile-qt oblicza liczbe promili alkoholu w zależności od czasu po jego spożyciu
 Name:		promile-qt
 Version:	0.8.0
-Release:	1
+Release:	2
 License:	GPL v3
 Group:		X11/Applications
 Source0:	http://piro.wikidot.com/local--files/promile-qt/%{name}-%{version}-src.tar.bz2
